@@ -4,33 +4,37 @@ MENU MOBILE
 
 function initMenu(){
 
-    const button =
-    document.querySelector(".menu-mobile");
+    const menuBtn = document.querySelector(".menu-mobile");
+const menu = document.querySelector(".menu");
 
-    const menu =
-    document.querySelector(".menu");
+menuBtn.addEventListener("click", () => {
 
-    if(!button || !menu){
+    menu.classList.toggle("active");
 
-        return;
+    if(menu.classList.contains("active")){
+
+        menuBtn.innerHTML = "✕";
+
+    }else{
+
+        menuBtn.innerHTML = "☰";
 
     }
 
-    button.addEventListener("click",()=>{
+    const links = document.querySelectorAll(".menu a");
 
-        menu.classList.toggle("active");
+links.forEach(link => {
 
-    });
+    link.addEventListener("click", () => {
 
+        menu.classList.remove("active");
 
-    menu.querySelectorAll("a").forEach(link=>{
-
-        link.addEventListener("click",()=>{
-
-            menu.classList.remove("active");
-
-        });
+        menuBtn.innerHTML = "☰";
 
     });
+
+});
+
+});
 
 }

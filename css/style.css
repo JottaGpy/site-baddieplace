@@ -314,23 +314,36 @@ HEADER
 
     display:flex;
 
-    gap:40px;
+    gap:30px;
 
 }
 
 .menu a{
 
-    transition:.3s;
+    font-size:1.9rem;
 
-    font-size:.95rem;
+    font-weight:300;
 
-    color:#e5e5e5;
+    letter-spacing:8px;
+
+    text-transform:uppercase;
+
+    color:white;
+
+}
+
+.menu a:hover{
+
+    color:var(--purple);
+
+    transform:scale(1.05);
 
 }
 
 .menu a:hover{
 
     color:var(--pink);
+    transform:translateX(8px);
 
 }
 
