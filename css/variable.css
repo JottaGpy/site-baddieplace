@@ -1,0 +1,108 @@
+/* =======================================
+   BADDIE PLACE STUDIO
+   VARIABLES
+======================================= */
+
+:root{
+
+    /* CORES */
+
+    --black: #080808;
+    --dark: #111111;
+    --gray: #242424;
+    --light-gray: #8A8A8A;
+    --white: #FFFFFF;
+
+    --purple: #9A00FF;
+    --pink: #FF1DBA;
+    --green: #C7FF3E;
+
+    --glass:
+    rgba(255,255,255,.06);
+
+    --border:
+    rgba(255,255,255,.10);
+
+
+
+    /* TIPOGRAFIA */
+
+    --title:
+
+    "Anton",
+    sans-serif;
+
+    --text:
+
+    "Poppins",
+    sans-serif;
+
+
+
+    /* TAMANHOS */
+
+    --hero-title:
+
+    clamp(
+        3rem,
+        8vw,
+        8rem
+    );
+
+    --title-size:
+
+    clamp(
+        2rem,
+        4vw,
+        4rem
+    );
+
+    --subtitle:
+
+    1.2rem;
+
+    --text-size:
+
+    1rem;
+
+
+
+    /* ESPAÇAMENTOS */
+
+    --section:
+
+    120px;
+
+    --gap:
+
+    30px;
+
+    --radius:
+
+    20px;
+
+
+
+    /* SOMBRAS */
+
+    --shadow:
+
+    0px 15px 40px
+    rgba(0,0,0,.35);
+
+    --glow:
+
+    0 0 20px
+    rgba(154,0,255,.4);
+
+
+
+    /* TRANSIÇÕES */
+
+    --transition:
+
+    .35s ease;
+
+
+
+}
