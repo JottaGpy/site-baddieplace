@@ -13,8 +13,9 @@
     --light-gray: #8A8A8A;
     --white: #FFFFFF;
 
-    --purple: #9A00FF;
-    --pink: #FF1DBA;
+    /* A mágica acontece aqui: */
+    --purple: #FF1DBA; /* O site inteiro passa a usar Rosa como cor principal */
+    --pink: #9A00FF;   /* O Roxo fica para os detalhes secundários */
     --green: #C7FF3E;
 
     --glass:
