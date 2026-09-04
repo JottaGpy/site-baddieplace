@@ -867,6 +867,83 @@ SERVIÇOS
 
 }
 
+.service-link{
+
+    display:inline-block;
+    margin-top:8px;
+    color:var(--pink);
+    font-size:.8rem;
+    letter-spacing:2px;
+
+}
+
+.makeup-intro{
+
+    padding-top:80px;
+
+}
+
+.makeup-intro .container{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+
+}
+
+.makeup-intro h2{
+
+    font-size:clamp(3.5rem,5vw,5.5rem);
+    max-width:720px;
+
+    margin-bottom:25px;
+
+}
+
+.makeup-intro p + p{
+
+    margin-top:18px;
+
+}
+
+.makeup-intro .btn-primary{
+
+    margin-top:30px;
+
+}
+
+.makeup-image img{
+
+    max-height:620px;
+    object-fit:cover;
+    border-radius:25px;
+    box-shadow:0 20px 60px rgba(0,0,0,.4);
+
+}
+
+@media(min-width:1440px){
+
+    .header .logo{
+
+        transform:translateX(-40px);
+
+    }
+
+    .header .btn-header{
+
+        transform:translateX(45px);
+
+    }
+
+    .header .btn-header:hover{
+
+        transform:translate(45px,-3px);
+
+    }
+
+}
+
 #servicos span{
 
     display:block;

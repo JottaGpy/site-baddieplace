@@ -2,6 +2,41 @@
 RESPONSIVO
 =================================== */
 
+@media (min-width:769px) and (max-width:1300px){
+
+    .header .container{
+
+        width:92%;
+
+    }
+
+    .logo{
+
+        font-size:1.65rem;
+
+    }
+
+    .menu{
+
+        gap:16px;
+
+    }
+
+    .menu a{
+
+        font-size:1.2rem;
+        letter-spacing:4px;
+
+    }
+
+    .btn-header{
+
+        padding:10px 20px;
+
+    }
+
+}
+
 @media(max-width:768px){
 
 .container{
@@ -140,6 +175,20 @@ body{
 }
 
 .about h2{
+
+    font-size:3rem;
+
+}
+
+.makeup-intro .container{
+
+    grid-template-columns:1fr;
+    gap:35px;
+    text-align:center;
+
+}
+
+.makeup-intro h2{
 
     font-size:3rem;
 
